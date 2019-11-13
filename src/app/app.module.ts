@@ -12,17 +12,28 @@ import { ProductsService } from "./products.service";
 import { ProductAddComponent } from "./product-add/product-add.component";
 import { ProductGetComponent } from "./product-get/product-get.component";
 import { ProductEditComponent } from './product-edit/product-edit.component';
+import { ProductChartComponent } from './product-chart/product-chart.component';
 
 @NgModule({
-  declarations: [AppComponent, ProductAddComponent, ProductGetComponent, ProductEditComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    SlimLoadingBarModule,
-    ReactiveFormsModule,
-    HttpClientModule
-  ],
-  providers: [ProductsService],
-  bootstrap: [AppComponent]
+   declarations: [
+      AppComponent,
+      ProductAddComponent,
+      ProductGetComponent,
+      ProductEditComponent,
+      ProductChartComponent
+   ],
+   imports: [
+      BrowserModule,
+      AppRoutingModule,
+      SlimLoadingBarModule,
+      ReactiveFormsModule,
+      HttpClientModule
+   ],
+   providers: [
+      ProductsService
+   ],
+   bootstrap: [
+      AppComponent
+   ]
 })
 export class AppModule {}
