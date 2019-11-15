@@ -37,11 +37,9 @@ export class ProductsService {
     };
     this.http
       .post(`${this.uri}/update/${id}`, obj)
-      .subscribe(res => console.log("Done"));
+      .subscribe(() => this.getProducts());
   }
   deleteProduct(id) {
-    return this
-              .http
-              .get(`${this.uri}/delete/${id}`);
+    return this.http.get(`${this.uri}/delete/${id}`);
   }
 }

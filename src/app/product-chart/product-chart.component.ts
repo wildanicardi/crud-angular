@@ -30,7 +30,8 @@ export class ProductChartComponent implements OnInit {
             {
               data: this.productprice,
               borderColor: '#3cba9f',
-              fill: false
+              fill: false,
+              backgroundColor: "#ff6384",
             }
           ]
         },
