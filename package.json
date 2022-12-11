@@ -22,7 +22,7 @@
     "body-parser": "^1.19.0",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.9.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "ng2-slim-loading-bar": "^4.0.0",
     "rxjs": "~6.4.0",
     "rxjs-compat": "^6.5.3",
